@@ -1,0 +1,40 @@
+.weather-card {
+  background: var(--accent-bg);
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.city-name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--text-h);
+}
+
+.weather-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.temp {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.description {
+  font-size: 1rem;
+  color: var(--text);
+  text-transform: capitalize;
+}
+
+.loading {
+  opacity: 0.6;
+}
+
+.error {
+  color: red;
+}
